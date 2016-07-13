@@ -1,0 +1,117 @@
+/*************************************/
+/*=========     GLOBAL     =========*/
+/***********************************/
+
+
+/*************************************/
+/*=========     HEADER     =========*/
+/***********************************/
+.navbar-default{
+   background-color: #222;
+   border: none;
+
+	.navbar-toggle{
+      border: none;
+      background-color: $main-color;
+      color: #fff;
+		&:hover,
+		&:active{
+         background: $main-color !important;
+		}
+	}
+
+	.navbar-brand{
+      color: $main-color !important;
+      font-family: $second-font;
+      &:hover,
+      &:active,
+      &:focus{
+         color: $main-color !important;
+		}
+	}
+
+	.navbar-collapse{
+		border-color: $comp-color;
+	}
+
+	.navbar-nav{
+		> li {
+			> a{
+            color: #fff !important;
+            text-transform: uppercase;
+			}
+		}
+	}
+
+}
+
+/*************************************/
+/*=========     BANNER     =========*/
+/***********************************/
+#banner{
+	background-image: url(../images/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 150px 0 50px;
+	h4{
+		color: #fff;
+		font-weight: 400;
+		font-style: italic;
+		font-size: 22px;
+		line-height: 22px;
+		font-family: $fourth-font;
+      margin-bottom: 25px;
+	}
+	h1{
+		color: #fff;
+		font-weight: 700;
+		font-size: 50px;
+		line-height: 50px;
+		font-family: $third-font;
+	  	text-transform: uppercase;
+	  	margin-bottom: 25px
+	}
+	.btn-info{
+		background-color: $main-color;
+		color: #fff !important;
+		font-size: 30px;
+		font-family: $second-font;
+		border-color: $main-color;
+		box-shadow: 0 0 2px $main-color;
+	}
+}
+
+/***************************************/
+/*=========     SERVICES     =========*/
+/*************************************/
+#services{
+	padding: 100px 0;
+	i{
+		width: 100px;
+		height: 100px;
+		line-height: 100px;
+		font-size: 50px;
+		margin-top: 50px;
+		color: #fff;
+		@include b-ra(50%);
+		background-color: $main-color;
+		display: inline-block;
+	}
+}
+
+/****************************************/
+/*=========     PORTFOLIO     =========*/
+/**************************************/
+
+
+
+/**************************************/
+/*=========     CONTACT     =========*/
+/************************************/
+
+
+
+/************************************/
+/*=========     FOOTER     =========*/
+/************************************/

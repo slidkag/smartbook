@@ -1,0 +1,114 @@
+/* CSS Document  */
+/* Project name: TP Bootstrap */
+/* File name: styles.css */
+/* Description: Hoja de estilos global */
+/* Creation date: ESCRIBIR-EL-MES de 2016 */
+/* Author: MI-NOMBRE MI-APELLIDO */
+/* Author's eMail: MI-EMAIL@SERVER.com */
+/********** FONTS (Google-fonts) **********/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+body {
+  font-family: "Roboto Slab";
+  margin: 0; }
+
+figure {
+  margin: 0;
+  line-height: 0; }
+
+a {
+  outline: none !important;
+  color: inherit !important; }
+
+/*************************************/
+/*=========     GLOBAL     =========*/
+/***********************************/
+/*************************************/
+/*=========     HEADER     =========*/
+/***********************************/
+.navbar-default {
+  background-color: #222;
+  border: none; }
+  .navbar-default .navbar-toggle {
+    border: none;
+    background-color: #fed136;
+    color: #fff; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active {
+      background: #fed136 !important; }
+  .navbar-default .navbar-brand {
+    color: #fed136 !important;
+    font-family: "Kaushan Script"; }
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand:focus {
+      color: #fed136 !important; }
+  .navbar-default .navbar-collapse {
+    border-color: #2f2e2e; }
+  .navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+    text-transform: uppercase; }
+
+/*************************************/
+/*=========     BANNER     =========*/
+/***********************************/
+#banner {
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 150px 0 50px; }
+  #banner h4 {
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: "Droid Serif";
+    margin-bottom: 25px; }
+  #banner h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+  #banner .btn-info {
+    background-color: #fed136;
+    color: #fff !important;
+    font-size: 30px;
+    font-family: "Kaushan Script";
+    border-color: #fed136;
+    box-shadow: 0 0 2px #fed136; }
+
+/***************************************/
+/*=========     SERVICES     =========*/
+/*************************************/
+#services {
+  padding: 100px 0; }
+  #services i {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #fed136;
+    display: inline-block; }
+
+/****************************************/
+/*=========     PORTFOLIO     =========*/
+/**************************************/
+/**************************************/
+/*=========     CONTACT     =========*/
+/************************************/
+/************************************/
+/*=========     FOOTER     =========*/
+/************************************/
+/******************************************/
+/*=========     MEDIA-QUERIES    =========*/
+/******************************************/
+
+/*# sourceMappingURL=styles.css.map */
