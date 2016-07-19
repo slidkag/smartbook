@@ -563,6 +563,9 @@ th {
 }
 .glyphicon-ban-circle:before {
   content: "\e090";
+
+
+
 }
 .glyphicon-arrow-left:before {
   content: "\e091";
@@ -6431,6 +6434,16 @@ button.close {
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
+
+/*Agregado*/
+.resaltar{
+  color: #9E2245;
+}
+.autor{
+  color: #FFE59F;
+}
+/*Fin de agregados*/
+
 .carousel-caption .btn {
   text-shadow: none;
 }
@@ -6570,6 +6583,7 @@ button.close {
 .visible-lg-inline-block {
   display: none !important;
 }
+
 @media (max-width: 767px) {
   .visible-xs {
     display: block !important;

@@ -7,9 +7,10 @@
 /* Author's eMail: MI-EMAIL@SERVER.com */
 /********** FONTS (Google-fonts) **********/
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
-@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:900);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 body {
   font-family: "Roboto Slab";
   margin: 0; }
@@ -25,27 +26,53 @@ a {
 /*************************************/
 /*=========     GLOBAL     =========*/
 /***********************************/
+#banner {
+  padding: 40px !important; }
+
+#services {
+  padding: 0px !important; }
+
+h2 {
+  font-family: "Permanent Marker";
+  text-align: center;
+  color: #9E2245;
+  font-size: 50px; }
+
+.cleaner {
+  clear: both; }
+
+.subs {
+  text-align: center; }
+
+img {
+  max-width: 100%; }
+
 /*************************************/
 /*=========     HEADER     =========*/
 /***********************************/
 .navbar-default {
-  background-color: #222;
+  background-color: #C7E5E3;
   border: none; }
   .navbar-default .navbar-toggle {
     border: none;
-    background-color: #fed136;
+    background-color: #9E2245;
     color: #fff; }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active {
-      background: #fed136 !important; }
+      background: #9E2245 !important; }
   .navbar-default .navbar-brand {
-    color: #fed136 !important;
-    font-family: "Kaushan Script"; }
+    color: #9E2245 !important;
+    font-family: "Raleway";
+    font-size: 25px;
+    margin-top: 8px; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand:focus {
-      color: #fed136 !important; }
+      color: #fff !important; }
   .navbar-default .navbar-collapse {
-    border-color: #2f2e2e; }
+    border-color: #C7E5E3; }
   .navbar-default .navbar-nav > li > a {
     color: #fff !important;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: "Raleway";
     text-transform: uppercase; }
 
 /*************************************/
@@ -63,23 +90,23 @@ a {
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
-    font-family: "Droid Serif";
+    font-family: "Gloria Hallelujah";
     margin-bottom: 25px; }
   #banner h1 {
     color: #fff;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
-    font-family: "Montserrat";
+    font-family: "Permanent Marker";
     text-transform: uppercase;
     margin-bottom: 25px; }
   #banner .btn-info {
-    background-color: #fed136;
+    background-color: #9E2245;
     color: #fff !important;
     font-size: 30px;
-    font-family: "Kaushan Script";
-    border-color: #fed136;
-    box-shadow: 0 0 2px #fed136; }
+    font-family: "Raleway";
+    border-color: #9E2245;
+    box-shadow: 0 0 2px #9E2245; }
 
 /***************************************/
 /*=========     SERVICES     =========*/
@@ -95,18 +122,175 @@ a {
     color: #fff;
     border-radius: 50%;
     -webkit-border-radius: 50%;
-    background-color: #fed136;
+    background-color: #9E2245;
     display: inline-block; }
 
 /****************************************/
-/*=========     PORTFOLIO     =========*/
+/*=========     Empleados     =========*/
 /**************************************/
+#empleados {
+  padding: 100px 0; }
+  #empleados i {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #9E2245;
+    display: inline-block; }
+  #empleados img {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: inline-block; }
+
+/**************************************/
+/*=========     SERVICIOS   =========*/
+/************************************/
+/* SERVICIOS */
+#servicios {
+  background-color: #C7E5E3; }
+  #servicios img {
+    width: 500px;
+    height: 200px;
+    transition: 450ms;
+    border-radius: 20px; }
+  #servicios img:hover {
+    width: 800px;
+    height: 400px; }
+
+.servicios-derecha {
+  float: right;
+  display: block !important; }
+
+/**************************************/
+/*=========     LOCATION     =========*/
+/************************************/
+#location {
+  padding-top: 80px;
+  font: "Roboto Slab"; }
+  #location h2 {
+    font-size: 30px;
+    font-weight: 700; }
+  #location p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px; }
+
 /**************************************/
 /*=========     CONTACT     =========*/
 /************************************/
+#contact {
+  padding-top: 80px;
+  font: "Roboto Slab"; }
+  #contact h2 {
+    font-size: 30px;
+    font-weight: 700; }
+  #contact p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px; }
+  #contact .btn-default {
+    margin: auto !important;
+    color: #fff;
+    background-color: #9E2245;
+    border-color: #E5D1D0;
+    font-weight: 700;
+    display: inline !important; }
+  #contact input {
+    margin-bottom: 18px;
+    font-family: "Gloria Hallelujah"; }
+
+.form-group textarea {
+  float: right !important;
+  margin: 0 !important;
+  font-family: "Gloria Hallelujah"; }
+.form-group .center-btn {
+  text-align: center;
+  margin: auto;
+  margin-top: 30px; }
+
+/************************************/
+/*=========     Carousel   =========*/
+/************************************/
+.carousel-caption {
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 10px 2px 10px black !important;
+  font-size: 4em;
+  position: absolute;
+  right: 15%;
+  bottom: 10px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left; }
+
+/*Agregado*/
+.resaltar {
+  color: #9E2245; }
+
+.autor {
+  color: #FFE59F; }
+
 /************************************/
 /*=========     FOOTER     =========*/
 /************************************/
+footer {
+  width: 100%;
+  background-color: #C7E5E3;
+  text-align: center; }
+  footer i {
+    color: grey;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 30px;
+    opacity: 0.5;
+    transition: 300ms; }
+    footer i .derecha {
+      float: right; }
+  footer i:hover {
+    opacity: 1;
+    color: #9E2245; }
+
+@media (min-width: 992px) {
+  #contact .contact-right {
+    padding-top: 0px; }
+  #contact textarea {
+    height: 142px; } }
+@media (min-width: 100px) {
+  .carousel-caption {
+    font-size: 3em; }
+
+  #banner {
+    display: none; } }
+@media (min-width: 500px) {
+  #empleados {
+    padding-top: 10px; }
+
+  .carousel-caption {
+    font-size: 15px;
+    margin-bottom: 10%; }
+
+  #banner {
+    margin-top: 50px;
+    display: block; } }
+@media (min-width: 700px) {
+  .carousel-caption {
+    font-size: 20px;
+    margin-top: 50px; } }
+@media (min-width: 1000px) {
+  .carousel-caption {
+    font-size: 40px;
+    margin-top: 100px; } }
 /******************************************/
 /*=========     MEDIA-QUERIES    =========*/
 /******************************************/
